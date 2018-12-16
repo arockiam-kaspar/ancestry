@@ -1,0 +1,24 @@
+.singup-container form{
+    width:470px;
+    margin: auto;
+    padding: 40px;
+}
+.singup-container form input:not([type='radio']){
+    margin: 20px 0;
+}
+.singup-container .form-wrapper{
+    background: pink;
+    border-radius: 5px;
+}
+.btn-success{
+    background-color: #0070ba !important;
+    border-color: #0070ba !important;
+}
+@media screen and (max-width: 550px) {
+    .singup-container form{
+        width: 100%;
+    }
+}
+.invalid-feedback{
+    display: block !important;
+}

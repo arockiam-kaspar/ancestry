@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../server/config/keys.js"],"names":["mongoURI","JWT_SECRET"],"mappings":"AAAA,eAAe;AACXA,cAAU,8DADC;AAEXC,gBAAY;AAFD,CAAf","file":"keys.js","sourcesContent":["export default {\n    mongoURI: 'mongodb://nefin:nefin123@ds141221.mlab.com:41221/people_list',\n    JWT_SECRET: \"secretkey\"\n}"]}
